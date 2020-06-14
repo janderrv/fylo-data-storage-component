@@ -1,31 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Fylo data storage component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <section class="container">
+      <section class="content">
+        <div class="nav">
+          <div class="logo">
+            <img src="./images/logo.svg">
+          </div>
+          <div class="icones">
+            <img id="document" src="./images/icon-document.svg">
+            <img id="folder" src="./images/icon-folder.svg">
+            <img id="upload" src="./images/icon-upload.svg">
+          </div>
+        </div>
+        <div class="storage">
+          <div class="box">
+            <h1>185</h1>
+            <h5>GB Left</h5>
+          </div>
+          <div class="text">
+            You’ve used <b>815 GB</b> of your storage 
+          </div>
+          <div class="progress">
+            <div class="progress-bar">
+            </div>
+          </div>
+          <div class="progress-text">
+            <div class="left">
+              0 GB
+            </div>
+            <div class="from">
+              1000 GB
+            </div>
+          </div>
+        </div>
+      </section>
+  </body>
 </html>
